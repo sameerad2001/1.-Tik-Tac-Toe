@@ -1,0 +1,103 @@
+/* 
+Sameer Ahmed 
+Fell free to contact me for any queries
+
+Github : https://github.com/sameerad2001/PersonalWebsiteDemo/edit/master/README.md
+Linkedin : https://www.linkedin.com/in/sameer-ahmed-0b7902176/
+Email : Sameerad2001@gmail.com
+*/
+
+::selection {
+    color: red;
+    background: #11d3bc;
+}
+
+body {
+    background-color: #071a52;
+}
+
+.alternate_color {
+    color: #ff1707;
+    text-decoration: line-through;
+}
+
+.blink {
+    color: #6ef3d6;
+}
+
+.box_square {
+    height: 11rem;
+    color: #ffc107;
+    border: 1rem solid;
+}
+
+@media(max-width: 1038px) {
+    .box_square {
+        height: 14rem;
+        color: #ffc107;
+        border: 1rem solid;
+    }
+}
+
+.grad {
+    /* border-color: red; */
+    border-image: linear-gradient(0deg, rgb(255, 193, 7) 0%, rgb(110, 243, 214) 100%);
+    /*  V Distance of gradient from the top */
+    border-image-slice: 10;
+}
+
+.no_top {
+    border-top: 0;
+}
+
+.no_bottom {
+    border-bottom: 0;
+}
+
+.no_left {
+    border-left: 0;
+}
+
+.no_right {
+    border-right: 0;
+}
+
+.play_grid {
+    padding: 5rem 15rem 0 15rem;
+}
+
+@media(max-width: 1038px) {
+    .play_grid {
+        padding: 5rem 10rem 0 10rem;
+    }
+}
+
+.select_button {
+    position: relative;
+    font-size: 1.3rem;
+    top: 37%;
+    left: 40%;
+    border-radius: 50%;
+}
+
+.big_head_normal {
+    color: #ffc107;
+}
+
+#big_head {
+    font-size: 4rem;
+    padding-top: 4rem;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#copyright {
+    color: #b9d7ea;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#copyright a {
+    color: #11d3bc;
+}
