@@ -1,0 +1,22 @@
+{
+  "name": "tik_tac_toe",
+  "version": "1.0.0",
+  "description": "A simple tik tac toe website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerad2001/1.-Tik-Tac-Toe.git"
+  },
+  "author": "Sameer Ahmed <sameerad2001@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerad2001/1.-Tik-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/sameerad2001/1.-Tik-Tac-Toe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
